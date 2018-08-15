@@ -1,4 +1,4 @@
-# Fortune IndexedDB
+# Fortune localForage
 
 [![npm Version](https://img.shields.io/npm/v/fortune-localforage.svg?style=flat-square)](https://www.npmjs.com/package/fortune-localforage)
 [![License](https://img.shields.io/npm/l/fortune-localforage.svg?style=flat-square)](https://raw.githubusercontent.com/fortunejs/fortune-localforage/master/LICENSE)
