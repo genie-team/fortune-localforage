@@ -1,0 +1,70 @@
+{
+  "name": "fortune-localforage",
+  "description": "localForage adapter for Fortune.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/genie-team/fortune-localforage.git"
+  },
+  "scripts": {
+    "demo": "browserify test/demo.js > test/demo.build.js",
+    "lint": "eslint lib --fix",
+    "postpublish": "npm run tag",
+    "tag": "git tag v`npm v fortune-localforage version` && git push origin --tags",
+    "test": "npm run lint && browserify test/index.js | tape-run"
+  },
+  "peerDependencies": {
+    "localforage": "^1.7.2"
+  },
+  "devDependencies": {
+    "browserify": "^16.2.2",
+    "eslint": "^5.0.1",
+    "fortune": "^5.4.3",
+    "localforage": "^1.7.2",
+    "tapdance": "^5.1.0",
+    "tape-run": "^4.0.0"
+  },
+  "main": "lib/index.js",
+  "eslintConfig": {
+		"extends": ["eslint:recommended", "google"],
+		"parserOptions": {
+      "ecmaVersion": 6
+    },
+    "globals": {
+      "require": false,
+      "module": false,
+			"console": false,
+			"document": false,
+			"Buffer": false
+    },
+    "rules": {
+			"no-var": 2,
+			"no-console": 1,
+			"max-len": [2, {
+				"code": 100
+			}],
+      "require-jsdoc": 0,
+      "valid-jsdoc": 0,
+      "no-unused-vars": 2,
+      "no-tabs": 0,
+      "space-before-function-paren": [
+        "error",
+        {
+          "anonymous": "always",
+          "named": "never",
+          "asyncArrow": "always"
+        }
+      ],
+      "arrow-parens": 0,
+      "comma-dangle": 0
+    }
+  },
+  "keywords": [
+    "indexeddb",
+    "adapter"
+  ],
+  "dependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
