@@ -47,3 +47,19 @@ const store = fortune(recordTypes, {
 ## License
 
 This software is licensed under the [MIT license](https://raw.githubusercontent.com/genie-team/fortune-localforage/master/LICENSE).
+
+
+## Contribute or Donate
+* Code Contributions
+	* Fork
+	* Make Changes
+	* Run the following and make sure no failures or errors
+		* npm run test
+		* npm run lint
+		* npm run build
+	* Open pull request
+* Donate 
+	* Genie and other genie-team products are outcomes of a hobby and receive no other funding, any and all support would be greatly appreciated if you find Genie products useful. Your support will result in faster development of bug fixes, new features and new products.
+	* [![donate](http://img.shields.io/liberapay/receives/aCoreyJ.svg?logo=liberapay)](https://liberapay.com/aCoreyJ/donate) (preferred)
+	* [![patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/acoreyj/overview) 
+	* [![paypal](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.com/pools/c/872dOkFVLP) 
