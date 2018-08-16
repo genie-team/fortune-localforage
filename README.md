@@ -7,7 +7,7 @@
 [![patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/acoreyj/overview) 
 [![paypal](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.com/pools/c/872dOkFVLP)
 
-This is an adapter for Fortune.js that uses [localForage](https://github.com/localForage/localForage) which wraps IndexedDB, WebSQL, or localStorage. There is also a [Cordova SQLite Driver](https://github.com/thgreasi/localForage-cordovaSQLiteDriver).
+This is an adapter for [Fortune.js](https://github.com/fortunejs/fortune) that uses [localForage](https://github.com/localForage/localForage) which wraps IndexedDB, WebSQL, or localStorage. There is also a [Cordova SQLite Driver](https://github.com/thgreasi/localForage-cordovaSQLiteDriver).
 
 ```sh
 $ npm install localforage fortune-localforage
