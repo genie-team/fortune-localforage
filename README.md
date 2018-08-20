@@ -43,6 +43,9 @@ const store = fortune(recordTypes, {
 })
 ```
 
+### GraphQL
+
+If you want to use GraphQL to query and mutate data (such as with a matching server schema) check out [GraphQL Genie](https://github.com/genie-team/graphql-genie
 
 ## License
 
