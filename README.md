@@ -59,7 +59,7 @@ This software is licensed under the [MIT license](https://raw.githubusercontent.
 		* npm run build
 	* Open pull request
 * Donate 
-	* genie-team products are outcomes of a hobby and receive no other funding, any and all support would be greatly appreciated if you find Genie products useful. Your support will result in faster development of bug fixes, new features and new products.
+	* genie-team products are outcomes of a hobby and receive no other funding, any and all support would be greatly appreciated if you find Genie products useful. Your support will encourage faster development of bug fixes, new features and new products.
 	* [![donate](http://img.shields.io/liberapay/receives/aCoreyJ.svg?logo=liberapay)](https://liberapay.com/aCoreyJ/donate) (preferred)
 	* [![patreon](https://img.shields.io/badge/patreon-donate-orange.svg)](https://www.patreon.com/acoreyj/overview) 
 	* [![paypal](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.com/pools/c/872dOkFVLP) 
