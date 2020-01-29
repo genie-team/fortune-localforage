@@ -27,23 +27,29 @@
   },
   "main": "lib/index.js",
   "eslintConfig": {
-		"extends": ["eslint:recommended", "google"],
-		"parserOptions": {
+    "extends": [
+      "eslint:recommended",
+      "google"
+    ],
+    "parserOptions": {
       "ecmaVersion": 6
     },
     "globals": {
       "require": false,
       "module": false,
-			"console": false,
-			"document": false,
-			"Buffer": false
+      "console": false,
+      "document": false,
+      "Buffer": false
     },
     "rules": {
-			"no-var": 2,
-			"no-console": 1,
-			"max-len": [2, {
-				"code": 100
-			}],
+      "no-var": 2,
+      "no-console": 1,
+      "max-len": [
+        2,
+        {
+          "code": 100
+        }
+      ],
       "require-jsdoc": 0,
       "valid-jsdoc": 0,
       "no-unused-vars": 2,
